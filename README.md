@@ -5,7 +5,7 @@ Uma simples database, agil e facil de usar não tem erro.
   ```js
   const db = require('kitsune-database')(
   "local", // Exemplo: db ou dbs/db.
-  { replacer: null, space: 2, path: "optional", split: "/" } // Para JSON.stringify. (Opcional)
+  { replacer: null, space: 2, path: "optional", split: "/" }) // Para JSON.stringify. (Opcional)
   
   db.get('F3L1P3D4RK/money') //pegar valor.
  

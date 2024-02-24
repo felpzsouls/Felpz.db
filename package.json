@@ -1,0 +1,9 @@
+{
+    "name": "felpz.db",
+    "description": "a simple json database",
+    "version": "1.0.0",
+    "main": "index.js",
+    "keywords": ["database", "felpz", "felpzsouls", "quick.db"],
+    "author": "felpzsouls",
+    "license": "ISC"
+}

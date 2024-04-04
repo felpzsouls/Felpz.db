@@ -3,17 +3,17 @@ Uma simples database, agil e facil de usar não tem erro.
 
 ## Uso basico.
   ```js
-  const db = require('kitsune-database')(
+  const db = require('felpz.db')(
   "local", // Exemplo: db ou dbs/db.
   { replacer: null, space: 2, path: "optional", split: "/" }) // Para JSON.stringify. (Opcional)
   
-  db.get('F3L1P3D4RK/money') //pegar valor.
+  db.get('felpzsouls/money') //pegar valor.
  
-  db.set('F3L1P3D4RK/money', 300) //setar valor.
+  db.set('felpzsouls/money', 300) //setar valor.
   
-  db.add('F3L1P3D4RK/money', 200) //aumentar o valor salvo.
+  db.add('felpzsouls/money', 200) //aumentar o valor salvo.
   
-  db.subtract('F3L1P3D4RK/money', 100) //diminuir o valor salvo.
+  db.subtract('felpzsouls/money', 100) //diminuir o valor salvo.
   ```
 # 
 ## Todas as funções.
